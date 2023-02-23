@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand&family=Titillium+Web:wght@200&display=swap');
+
+
 body {
+    font-family: 'Quicksand', sans-serif;
     background-color: bisque;
+}
+
+header{
+    background-color: grey;
 }
