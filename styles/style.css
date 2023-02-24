@@ -38,6 +38,14 @@ header h1 #logoux {
     font-weight: bold;
     font-size: 30px;
 }
-
+ header nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 300px;
+ }
  
-
+header nav a {
+    color: white;
+    text-decoration: none;
+}
