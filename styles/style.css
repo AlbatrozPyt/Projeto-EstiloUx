@@ -17,7 +17,7 @@ header{
 header .grid-layout {
     width: 80%;
     margin: 0 auto;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 
 header .header-flex {
@@ -29,7 +29,6 @@ header h1 {
     color: white;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 100;
-    border: 3px solid blue;
 }
 
 header h1 #logoux {
@@ -40,8 +39,5 @@ header h1 #logoux {
     font-size: 30px;
 }
 
-header nav {
-    border: 3px solid blue;
-}
  
 
