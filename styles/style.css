@@ -4,26 +4,34 @@
 font-family: 'Quicksand', sans-serif;
 font-family: 'Titillium Web', sans-serif; */
 
-/* Body */
+/* ---RESET--- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---Body--- */
 body {
     font-family: 'Quicksand', sans-serif;
     color: grey;
+    background-color: #EDECED;
 }
 
-/* Header */
-header{
-    background-color: grey;
-}
-
-header .grid-layout {
+/* ---Classes--- */
+.grid-layout {
     width: 80%;
     margin: 0 auto;
-    /* background-color: yellowgreen; */
+    /* background-color: yellowgreen;  */
 }
-
-header .header-flex {
+.header-flex {
     display: flex;
     justify-content: space-between;
+}
+
+/* ---Header--- */
+header{
+    background-color: #676767;
 }
 
 header h1 {
@@ -31,7 +39,6 @@ header h1 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 100;
 }
-
 header h1 #logoux {
     font-family: 'Comic Neue', cursive;
     text-transform: uppercase;
@@ -45,13 +52,43 @@ header h1 #logoux {
      justify-content: space-between;
      width: 300px;
  }
- 
 header nav a {
     color: white;
     text-decoration: none;
 }
 
-/* Main */
-main img {
+/* ---Main--- */
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* /imagem/ */
+main #Lapis {
+    width: 100%;
+}
+main .colunas-flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* /section/ */
+main .coluna1{
+    width: 75%;
+    background-color: white;
+}
+/* /aside/ */
+main .coluna2 {
+    width: 23%;
+    /* background-color: purple; */
+}
+main .coluna2 article {
+    background-color: white;
+}
 
+/* ---Footer--- */
+footer {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #676767;
+    height: 50px;
 }
