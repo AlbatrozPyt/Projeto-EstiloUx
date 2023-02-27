@@ -4,12 +4,13 @@
 font-family: 'Quicksand', sans-serif;
 font-family: 'Titillium Web', sans-serif; */
 
-
+/* Body */
 body {
     font-family: 'Quicksand', sans-serif;
     color: grey;
 }
 
+/* Header */
 header{
     background-color: grey;
 }
@@ -48,4 +49,9 @@ header h1 #logoux {
 header nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Main */
+main img {
+
 }

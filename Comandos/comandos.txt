@@ -1,0 +1,4 @@
+Short Line - Linha Curta
+margin: 10px -> Todos os cantos
+margin: 10px 20px -> Vertical - Horizontal
+margin: 10px 20px 10px -> Top - Left,Rigth - Bottom
