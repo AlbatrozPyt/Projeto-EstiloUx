@@ -81,14 +81,15 @@ main .coluna2 {
     /* background-color: purple; */
 }
 main .coluna2 article {
+    margin-top: 20px;
     background-color: white;
 }
 
 /* ---Footer--- */
 footer {
-    display: flex;
-    align-items: center;
+    margin-top: 135px;
     color: white;
     background-color: #676767;
     height: 50px;
+    
 }
