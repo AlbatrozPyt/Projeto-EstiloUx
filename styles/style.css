@@ -73,6 +73,7 @@ main .colunas-flex{
 main .coluna1{
     width: 75%;
     background-color: white;
+    margin-bottom: 20px;
 }
 main .coluna1 h2 {
     margin: 20px;
